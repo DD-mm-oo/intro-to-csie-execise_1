@@ -1,0 +1,17 @@
+[project]
+name = "intro-to-csie-execise-1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "DD-mm-oo", email = "256633204+DD-mm-oo@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+intro-to-csie-execise-1 = "intro_to_csie_execise_1:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
